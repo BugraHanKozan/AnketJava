@@ -5,10 +5,6 @@
  */
 package Sorular;
 
-/**
- *
- * @author Batuh
- */
 public class Sorular_Sql 
 {
 

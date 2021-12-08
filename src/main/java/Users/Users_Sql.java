@@ -28,96 +28,60 @@ public class Users_Sql
         this.lastname = lastname;
     }
 
-    public int getage() {
+    public int getAge() {
         return age;
     }
 
-    public void setage(int age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
-    public String getEmail() {
-        return email;
+    public String getAnswers() {
+        return answers;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setAnswers(String answers) {
+        this.answers = answers;
     }
 
-    public int gettelnum() {
-        return telnum;
+    public String getAnswer1() {
+        return answer1;
     }
 
-    public void settelnum(int telnum) {
-        this.telnum = telnum;
+    public void setAnswer1(String answer1) {
+        this.answer1 = answer1;
     }
 
-    public String getBircty() {
-        return bircty;
+    public String getAnswer2() {
+        return answer2;
     }
 
-    public void setBircty(String bircty) {
-        this.bircty = bircty;
+    public void setAnswer2(String answer2) {
+        this.answer2 = answer2;
     }
 
-    public String getMarry() {
-        return marry;
+    public String getAnswer3() {
+        return answer3;
     }
 
-    public void setMarry(String marry) {
-        this.marry = marry;
+    public void setAnswer3(String answer3) {
+        this.answer3 = answer3;
     }
 
-    public String getEdu() {
-        return edu;
+    public String getAnswer4() {
+        return answer4;
     }
 
-    public void setEdu(String edu) {
-        this.edu = edu;
+    public void setAnswer4(String answer4) {
+        this.answer4 = answer4;
     }
-
-    public String getHobby() {
-        return hobby;
-    }
-
-    public void setHobby(String hobby) {
-        this.hobby = hobby;
-    }
-
-    public int getlcknum() {
-        return lcknum;
-    }
-
-    public void setlcknum(int lcknum) {
-        this.lcknum = lcknum;
-    }
-
-    public String getBscolor() {
-        return bscolor;
-    }
-
-    public void setBscolor(String bscolor) {
-        this.bscolor = bscolor;
-    }
-
-    public String getBsmusic() {
-        return bsmusic;
-    }
-
-    public void setBsmusic(String bsmusic) {
-        this.bsmusic = bsmusic;
-    }
+    
     private  String firstname;
     private  String lastname;
     private  int age;
-    private  String email;
-    private  int telnum;
-    private  String bircty;
-    private  String marry;
-    private  String edu;
-    private  String hobby;
-    private  int lcknum;
-    private  String bscolor;
-    private  String bsmusic;
-    
+    private  String answers;
+    private  String answer1;
+    private  String answer2;
+    private  String answer3;
+    private  String answer4;
 }

@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package dbConnection;
 
 import java.sql.DriverManager;
@@ -11,10 +6,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/**
- *
- * @author Batuh
- */
 public class Connection 
 {
     public static java.sql.Connection con;
@@ -33,9 +24,9 @@ public class Connection
                 
                 st = con.createStatement();
                 
-                System.out.println("Bağlantı Sağlandı");
+                System.out.println("Baglanti Saglandi");
             } else {
-                   System.out.println("Bağlantı Zaten Açık");
+                   System.out.println("Baglanti Zaten Acik");
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -48,12 +39,18 @@ public class Connection
         try {
             if (con != null) {
                 con.close();
-                st.close();
-                System.out.println("1");
+//                st.close();
+//                rs.close();
+//            preparedStatement.close();
+                System.out.println("Baglanti Kapandi");
             }
         } catch (Exception e2) {
-            System.out.println("2");
+            System.out.println("Baglanti Zaten Kapali");
             }
         }
-    
+    public static void main(String[] args) throws SQLException {
+        Connection v = new Connection();
+        v.connection_open();
+        v.connection_close();
+    }
 }
