@@ -1,0 +1,17 @@
+{
+    "firstname" : "",
+    "lastname" : "",
+    "age" : "",
+    "email" : "",
+    "telnum" : "",
+         "questions": 
+                {
+                "bircty" : "",
+                "marry" : "",
+                "edu" : "",
+                "hobby" : "",
+                "lcknum" : "",
+                "bscolor" : "",
+                "bsmusic" : ""
+                }
+}
